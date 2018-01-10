@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Accordion</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/accordion.js"></script>
+    <script type="text/javascript" src="js/drag-and-drop.js"></script>
+    <link rel="stylesheet" href="css/page.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/accordion.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <div id="top">
+      <p>
+        Click a segment to expand it. Click the "X" to collapse it again. If two segments are expanded, images can be dragged from one region to the other.
+      </p>
+    </div>
+    <div class="accordion">
+      <div class="accordion-segment-base"><div class="segment-body"><h1>Segment One</h1></div></div>
+      <div class="accordion-segment-extension">
+        <div class="segment-body image-holder droppable">
+          <img class="draggable draggable-image" src="http://lorempixel.com/400/400/abstract/1" alt="Random Image" />
+          <img class="draggable draggable-image" src="http://lorempixel.com/400/400/abstract/2" alt="Random Image" />
+        </div>
+      </div>
+      <div class="accordion-segment-base"><div class="segment-body"><h1>Segment Two</h1></div></div>
+      <div class="accordion-segment-extension">
+        <div class="segment-body image-holder droppable">
+          <img class="draggable draggable-image" src="http://lorempixel.com/400/400/abstract/3" alt="Random Image" />
+          <img class="draggable draggable-image" src="http://lorempixel.com/400/400/abstract/4" alt="Random Image" />
+        </div>
+      </div>
+      <div class="accordion-segment-base"><div class="segment-body"><h1>Segment Three</h1></div></div>
+      <div class="accordion-segment-extension">
+        <div class="segment-body image-holder droppable">
+          <img class="draggable draggable-image" src="http://lorempixel.com/400/400/abstract/5" alt="Random Image" />
+          <img class="draggable draggable-image" src="http://lorempixel.com/400/400/abstract/6" alt="Random Image" />
+        </div>
+      </div>
+      <div class="accordion-segment-base"><div class="segment-body"><h1>Segment Four</h1></div></div>
+      <div class="accordion-segment-extension">
+        <div class="segment-body image-holder droppable">
+          <img class="draggable draggable-image" src="http://lorempixel.com/400/400/abstract/7" alt="Random Image" />
+          <img class="draggable draggable-image" src="http://lorempixel.com/400/400/abstract/8" alt="Random Image" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

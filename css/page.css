@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+  background-image: url("../assets/body-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#top {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  background-color: grey;
+}
+.image-holder {
+}
+.draggable-image {
+  width: 25%;
+  margin: 5%;
+}
